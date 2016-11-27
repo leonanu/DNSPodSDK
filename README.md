@@ -1,4 +1,4 @@
-# DNSPodSDK [![Build Status](https://travis-ci.org/leonanu/DNSPodSDK.svg?branch=master)](https://travis-ci.org/leonanu/DNSPodSDK)
+# DNSPodSDK
 
 DNSPodSDK is a DNSPod API SDK library, written in Python. 
 
