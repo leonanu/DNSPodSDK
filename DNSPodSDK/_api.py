@@ -38,6 +38,9 @@ class API(object):
 
     # API Log
     def _api_log(self, log_content):
+        '''
+        API Log
+        '''
         datetime_now = str(datetime.datetime.now())
 
         try:

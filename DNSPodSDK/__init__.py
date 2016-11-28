@@ -12,9 +12,8 @@ Example:
     >>> print ret
 '''
 
-
-from dnspod import *
-
+from public import Public
+from account import Account
 
 __title__ = 'DNSPodSDK'
 __author__ = 'Nanu'
