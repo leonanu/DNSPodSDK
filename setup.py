@@ -12,7 +12,7 @@ setup(
     description='DNSPod API SDK',
     download_url='https://github.com/leonanu/DNSPodSDK/archive/master.zip',
     classifiers=[
-            'Development Status :: 1 - Planning',
+            'Development Status :: 5 - Production/Stable',
             'License :: OSI Approved :: MIT License',
             'Operating System :: OS Independent',
             'Programming Language :: Python',
