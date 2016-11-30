@@ -63,7 +63,7 @@ class API(object):
             log_fd.close()
 
 
-    def make_request(self, params=''):
+    def make_request(self, params):
         '''
         Generate request URL.
         '''
@@ -83,7 +83,7 @@ class API(object):
         return post
 
 
-    def request(self, path, params=''):
+    def request(self, path, **kw):
         '''
         Do request.
         '''
@@ -91,14 +91,14 @@ class API(object):
 
         req_headers = {
                        'Connection':'keep-alive',
-                       'User-Agent':'Nanu DNSPodSDK/1.0.0 (nanu@qq.com)'
+                       'User-Agent':'Nanu DNSPodSDK/1.0.0 (nanu@inanu.net)'
                       }
 
         attempt = 1
         retry = True
         while retry:
             try:
-                post_data = self.make_request(params)
+                post_data = self.make_request(kw)
 
                 if DEBUG:
                     handler=urllib2.HTTPSHandler(debuglevel=1)
